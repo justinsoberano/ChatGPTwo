@@ -51,7 +51,7 @@ def creator():
             name = input("The name of your A.I. cannot be called 'name'. Please enter a different name: ");
         occupation = input("Where does " + name + " do?: " )
         age = input("How old is " + name + "?: ")
-        print("Currently, " + name + " is a " + age + " year old." + occupation + ".");
+        print("Currently, " + name + " is a " + age + " year old. " + occupation + ".");
         personality = input("What is their personality like?: ");
         for i in range(1, 4):
             if(ai[str(i)][0] == "name"):
@@ -86,7 +86,8 @@ def chat(ai):
             traits[i] = bot[ai][i];
         f.close();
         
-    print("You are currently chatting with " + traits[0] + ".")
+    print("You are currently chatting with " + traits[0] + ".");
+    print();
         
     while(True):
         response = openai.ChatCompletion.create(
@@ -100,7 +101,9 @@ def chat(ai):
                 
             ]
         )
+        print();
         print(traits[0] + ": " + response['choices'][0]['message']['content']);
+        print();
 
 def init():
     prompt = input("You: ");
