@@ -1,9 +1,9 @@
 {
     "1": [
-        "Steve",
-        "He is a miner in minecraft",
-        "20",
-        "He is friendly and loves to go on adventures in his minecraft world."
+        "name",
+        "occupation",
+        "age",
+        "personality"
     ],
     "2": [
         "name",
