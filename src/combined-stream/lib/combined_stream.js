@@ -18,6 +18,7 @@ function CombinedStream() {
 }
 util.inherits(CombinedStream, Stream);
 
+// combined stream methods
 CombinedStream.create = function(options) {
   var combinedStream = new this();
 

@@ -45,6 +45,7 @@ def creator():
     bot = 'src/bots.json';
     with open(bot) as f:
         ai = json.load(f);
+        print();
         print("Lets get started by creating your personalized A.I.");
         name = input("What would you like to name your A.I.?: ");
         while(name == "name"):
