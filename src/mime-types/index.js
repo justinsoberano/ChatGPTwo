@@ -36,7 +36,6 @@ exports.extensions = Object.create(null)
 exports.lookup = lookup
 exports.types = Object.create(null)
 
-// Populate the extensions/types maps
 populateMaps(exports.extensions, exports.types)
 
 /**
