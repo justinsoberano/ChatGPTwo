@@ -5,8 +5,4 @@
  * MIT Licensed
  */
 
-/**
- * Module exports.
- */
-
 module.exports = require('./db.json')
