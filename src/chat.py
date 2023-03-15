@@ -49,9 +49,9 @@ def creator():
         name = input("What would you like to name your A.I.?: ");
         while(name == "name"):
             name = input("The name of your A.I. cannot be called 'name'. Please enter a different name: ");
-        occupation = input("Where does " + name + " work?: " )
+        occupation = input("Where does " + name + " do?: " )
         age = input("How old is " + name + "?: ")
-        print("Currently, " + name + " is a " + age + " year old who works at " + occupation + ".");
+        print("Currently, " + name + " is a " + age + " year old." + occupation + ".");
         personality = input("What is their personality like?: ");
         for i in range(1, 4):
             if(ai[str(i)][0] == "name"):
@@ -94,9 +94,8 @@ def chat(ai):
             messages=[
                 {"role": "system", "content": "Your name is " 
                     + traits[0] + ". Respond as a " + traits[2] 
-                    + " year old who works at " + traits[1] 
-                    + " and is " + traits[3] 
-                    },
+                    + " year old who, " + traits[1] 
+                    + " and " + traits[3] +". Do not ask the user questions."},
                 {"role": "user", "content": init()}
                 
             ]
