@@ -1,6 +1,6 @@
 # ChatGPTwo
 
-A terminal program that lets you create your own personal chatbot A.I. Created to help with learning Python.
+A terminal program that lets you create your own personal chatbot A.I. Small project I made during spring break to see how far I can push GPT-3.5.
 
 ## Getting Started
 
