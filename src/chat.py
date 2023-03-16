@@ -50,7 +50,7 @@ def creator():
         name = input("What would you like to name your A.I.?: ");
         while(name == "name"):
             name = input("The name of your A.I. cannot be called 'name'. Please enter a different name: ");
-        occupation = input("Where does " + name + " do?: " )
+        occupation = input("What does " + name + " do?: " )
         age = input("How old is " + name + "?: ")
         print("Currently, " + name + " is a " + age + " year old. " + occupation + ".");
         personality = input("What is their personality like?: ");
