@@ -13,7 +13,6 @@ var populate = require('./populate.js');
 // Public API
 module.exports = FormData;
 
-// make it a Stream
 util.inherits(FormData, CombinedStream);
 
 /**

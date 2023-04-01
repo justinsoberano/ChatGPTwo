@@ -3,7 +3,6 @@ var iterate    = require('./lib/iterate.js')
   , terminator = require('./lib/terminator.js')
   ;
 
-// Public API
 module.exports = parallel;
 
 /**

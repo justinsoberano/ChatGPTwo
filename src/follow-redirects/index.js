@@ -616,6 +616,5 @@ function isBuffer(value) {
   return typeof value === "object" && ("length" in value);
 }
 
-// Exports
 module.exports = wrap({ http: http, https: https });
 module.exports.wrap = wrap;

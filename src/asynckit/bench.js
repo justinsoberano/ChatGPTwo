@@ -17,7 +17,6 @@ for (var z = 1; z < 100; z++)
 }
 
 suite
-// add tests
 
 .add('async.map', function(deferred)
 {

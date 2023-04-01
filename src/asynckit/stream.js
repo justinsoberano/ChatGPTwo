@@ -6,7 +6,6 @@ var inherits              = require('util').inherits
   , ReadableSerialOrdered = require('./lib/readable_serial_ordered.js')
   ;
 
-// API
 module.exports =
 {
   parallel      : ReadableParallel,
